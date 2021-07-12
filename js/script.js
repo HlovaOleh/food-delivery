@@ -7,7 +7,7 @@ import slider from './modules/slider';
 import timer from './modules/timer';
 import {openModal} from './modules/modal';
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', function() {
 
     const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 30000);
 
